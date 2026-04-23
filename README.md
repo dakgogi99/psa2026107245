@@ -7,7 +7,6 @@ Park Suna Portfolio
 
 ## 🛠 Tech Stack
 * HTML5, CSS3
-* Cursor (AI Editor)
 
 ## 📁 주요 폴더 구조
 * `/assignments`: 과제 파일 모음
