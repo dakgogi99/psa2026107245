@@ -30,7 +30,7 @@
   }
 }
 
-/* 2. 아이콘에 애니메이션 적용 */
+/* 아이콘에 애니메이션 적용 */
 .top-home-btn img {
   width: 50px; /* 아이콘 크기 조절 */
   height: 50px;
@@ -94,7 +94,7 @@ a {
   justify-content: center;
   border-radius: 10px;
   border: none;
-  background: rgba(255, 255, 255, 0.04);
+  background: none;
 }
 
 .top-home-btn img {
