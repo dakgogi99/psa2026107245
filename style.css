@@ -1,24 +1,44 @@
 @font-face {
-  font-family: "Paperlogy";
-  src: url("https://webdesignparksuna.figma.site/_user_fonts/v1/d0f6dce9e9d1a8a16e7d35a5ff934fb5cc44f228");
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
+    font-family: 'Paperozi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Paperlogy";
-  src: url("https://webdesignparksuna.figma.site/_user_fonts/v1/a6143ac52c486a60f209aff5b8724818fc67827c");
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
+    font-family: 'Paperozi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-6SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Pretendard:Medium";
-  src: url("https://webdesignparksuna.figma.site/_user_fonts/v1/ffe3ffd8f24a934af73f6ac145b4f47cd5fae0be");
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
 }
 
 @keyframes rotate_clockwise {
@@ -77,7 +97,7 @@ a {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 220px 24px;
+  padding: 180px 24px;
   position: relative;
 }
 
@@ -241,12 +261,12 @@ a {
 
 .card-desc {
   margin: 0;
-  font-family: "Pretendard:Medium", sans-serif;
+  font-family: "Pretendard", sans-serif;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.4;
   color: #8d8d99;
-  white-space: normal;
-}
+  white-space: normal;}
 
 .card-link:hover .card-desc,
 .card-link:focus-visible .card-desc {
@@ -329,8 +349,8 @@ a {
 @media (max-width: 1279px) and (min-width: 800px) {
   .page-shell {
     max-width: 800px;
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding-top: 150px;
+    padding-bottom: 100px;
   }
 
   .cards-grid {
