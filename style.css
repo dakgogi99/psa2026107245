@@ -130,7 +130,7 @@ a {
 
 .hero h1 {
   margin: 0;
-  font-family: "Paperlogy", sans-serif;
+  font-family: "Paperozi", sans-serif;
   font-weight: 800;
   font-size: 48px;
   letter-spacing: 0.96px;
@@ -140,7 +140,7 @@ a {
 
 .hero p {
   margin: 24px 0 0;
-  font-family: "Paperlogy", sans-serif;
+  font-family: "Paperozi", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: var(--muted);
@@ -252,7 +252,7 @@ a {
 .card-title {
   margin: 0;
   padding-bottom: 16px;
-  font-family: "Paperlogy", sans-serif;
+  font-family: "Paperozi", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.4;
@@ -308,7 +308,7 @@ a {
 
 .sub-content h1 {
   margin: 0 0 14px;
-  font-family: "Paperlogy", sans-serif;
+  font-family: "Paperozi", sans-serif;
   font-weight: 600;
   font-size: 32px;
 }
@@ -329,7 +329,7 @@ a {
 .sub-hero h1 {
   margin: 0;
   padding-bottom: 24px;
-  font-family: "Paperlogy", sans-serif;
+  font-family: "Paperozi", sans-serif;
   font-weight: 800;
   font-size: 48px;
   letter-spacing: 0.96px;
@@ -339,7 +339,7 @@ a {
 
 .sub-hero p {
   margin: 0;
-  font-family: "Paperlogy", sans-serif;
+  font-family: "Paperozi", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.4;
