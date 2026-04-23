@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="100%" overflow="visible" preserveAspectRatio="none" style="display: block;" viewBox="0 0 44 44" width="100%">
+<g id="img_04">
+<rect fill="var(--fill-0, #B35CFF)" fill-opacity="0.1" height="44" rx="10" width="44"/>
+<rect height="43" rx="9.5" stroke="var(--stroke-0, #B35CFF)" stroke-opacity="0.2" width="43" x="0.5" y="0.5"/>
+<g id="layout">
+<g id="Vector">
+<path d="M30 15C30 14.4477 29.5523 14 29 14H15C14.4477 14 14 14.4477 14 15V29C14 29.5523 14.4477 30 15 30H29C29.5523 30 30 29.5523 30 29V15ZM32 29C32 30.6569 30.6569 32 29 32H15C13.3431 32 12 30.6569 12 29V15C12 13.3431 13.3431 12 15 12H29C30.6569 12 32 13.3431 32 15V29Z" fill="var(--fill-0, #B35CFF)"/>
+<path d="M31 18C31.5523 18 32 18.4477 32 19C32 19.5523 31.5523 20 31 20H13C12.4477 20 12 19.5523 12 19C12 18.4477 12.4477 18 13 18H31Z" fill="var(--fill-0, #B35CFF)"/>
+<path d="M18 31V19C18 18.4477 18.4477 18 19 18C19.5523 18 20 18.4477 20 19V31C20 31.5523 19.5523 32 19 32C18.4477 32 18 31.5523 18 31Z" fill="var(--fill-0, #B35CFF)"/>
+</g>
+</g>
+</g>
+</svg>
