@@ -21,6 +21,25 @@
   font-display: swap;
 }
 
+@keyframes rotate_clockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 2. 아이콘에 애니메이션 적용 */
+.top-home-btn img {
+  width: 50px; /* 아이콘 크기 조절 */
+  height: 50px;
+  
+  /* 애니메이션 설정 */
+  animation: rotate_clockwise 6s linear infinite;
+  
+}
+
 :root {
   --bg: #000000;
   --text: #ffffff;
