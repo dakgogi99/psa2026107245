@@ -155,9 +155,9 @@ a {
 
 .cards-grid {
   display: grid;
-  width: 820px;
+  width: 1180px;
   margin: 0 auto;
-  grid-template-columns: repeat(2, 400px);
+  grid-template-columns: repeat(3, 380px);
   gap: 20px;
 }
 
@@ -204,6 +204,18 @@ a {
   --hover-bg: #b35cff;
   --icon-default-bg: rgba(179, 92, 255, 0.1);
   --icon-default-border: rgba(179, 92, 255, 0.2);
+}
+
+.card-mybrand {
+  --hover-bg: #FFB900;
+  --icon-default-bg: rgba(255, 185, 0, 0.1);
+  --icon-default-border: rgba(255, 185, 0, 0.2);
+}
+
+.card-cardnews {
+  --hover-bg: #41D7CA;
+  --icon-default-bg: rgba(65, 215, 202, 0.1);
+  --icon-default-border: rgba(65, 215, 202, 0.2);
 }
 
 .card-link:hover .card,
