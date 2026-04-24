@@ -1,6 +1,6 @@
 .character-content {
   margin: 120px auto 0;
-  padding: 60px 24px 100px;
+  padding: 0px 0px 100px;
   width: 100%;
   max-width: 1280px;
   background: linear-gradient(180deg, #e1f3fb 0%, #b2e4f6 100%);
@@ -134,18 +134,19 @@
 }
 
 .subpage-actions {
-  margin-top: 12px;
+  margin-top: 0px;
+  padding: 0px 20px;
 }
 
 @media (max-width: 1279px) {
   .character-content {
-    max-width: 800px;
+    min-width: 800px;
   }
 }
 
 @media (max-width: 799px) {
   .character-content {
-    max-width: 375px;
+    min-width: 335px;
   }
 
   .character-panel {
