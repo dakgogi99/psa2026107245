@@ -127,11 +127,12 @@
 
 .subpage-actions {
   margin-top: 0;
+  padding: 0px 20px;
 }
 
 @media (max-width: 1279px) {
   .book-content {
-    max-width: 800px;
+    min-width: 800px;
   }
 }
 
@@ -139,7 +140,7 @@
   .book-content {
     margin-top: 60px;
     padding: 60px 24px 100px;
-    max-width: 375px;
+    min-width: 335px;
     gap: 60px;
   }
 
