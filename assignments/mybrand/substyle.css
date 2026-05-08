@@ -34,31 +34,12 @@
 @media (max-width: 799px) {
   .mybrand-content {
     margin-top: 60px;
-    padding: 60px 24px 100px;
     min-width: 335px;
-    gap: 60px;
   }
 
   .mybrand-cover {
     width: 100%;
-    max-width: 327px;
     height: auto;
-    aspect-ratio: 458 / 676;
-  }
-
-  .mybrand-panel {
-    padding: 28px 20px;
-  }
-
-  .mybrand-panel__header h2 {
-    font-size: 28px;
-    line-height: 1.4;
-  }
-
-  .mybrand-panel__header p,
-  .mybrand-panel__body p {
-    font-size: 16px;
-    line-height: 26px;
   }
 
 }
