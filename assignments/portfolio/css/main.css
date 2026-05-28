@@ -51,7 +51,7 @@ html {
 
 body {
   margin: 0;
-  min-width: 1130px;
+  min-width: 1280px;
   font-family: "Pretendard", "Apple SD Gothic Neo", sans-serif;
   color: var(--color-black);
   background: var(--color-white);
@@ -356,6 +356,7 @@ ul {
 
 .metric__label {
   margin: 0 0 8px;
+  padding-bottom: 20px;
   font-size: 16px;
   line-height: 1.6;
   color: var(--color-gray-400);
@@ -375,13 +376,13 @@ ul {
 .skills-grid {
   margin-top: 16px;
   display: grid;
-  grid-template-columns: repeat(4, 270px);
+  grid-template-columns: repeat(4, 308px);
   gap: 16px;
 }
 
 .skill-card {
-  width: 270px;
-  height: 270px;
+  width: 308px;
+  height: 200px;
   background: var(--color-gray-100);
   display: flex;
   align-items: center;
@@ -389,8 +390,8 @@ ul {
 }
 
 .skill-card img {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
 }
 
@@ -403,11 +404,11 @@ ul {
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 64px 24px;
+  gap: 100px 40px;
 }
 
 .project-card {
-  width: 553px;
+  width: 620px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -415,8 +416,8 @@ ul {
 
 .project-card__media {
   margin: 0;
-  width: 553px;
-  height: 721px;
+  width: 620px;
+  height: 808px;
   border-radius: 0;
   border: 1px solid var(--color-border2);
   overflow: hidden;
