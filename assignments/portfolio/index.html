@@ -3,18 +3,334 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio | Park Suna Portfolio</title>
-    <link rel="stylesheet" href="../../style.css" />
+    <title>Suna's Portfolio</title>
+    <link rel="icon" href="../../img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <main class="page-shell">
-      <a class="top-home-btn" href="../../index.html" aria-label="Home">
-        <img src="../../img/home.png" alt="" aria-hidden="true" />
-      </a>
-      <section class="sub-hero">
-        <h1>My Portfolio</h1>
-        <p>안녕하세요, UI/UX 디자이너 박선아입니다. 만나서 반갑습니다 :)</p>
-      </section>
-    </main>
+    <a class="skip-link" href="#main">본문 바로가기</a>
+
+    <button class="scroll-top" type="button" aria-label="맨 위로 이동" hidden>
+      <img src="../portfolio/img/ico_top.png" alt="" aria-hidden="true" class="scroll-top-img" />
+    </button>
+
+    <div class="portfolio-page">
+      <header class="site-header">
+        <div class="container site-header__inner">
+          <a class="site-header__brand" href="#main" aria-label="상단으로 이동">
+            <img class="site-logo" src="./img/sign_w.png" alt="" aria-hidden="true" />
+          </a>
+          <nav class="site-header__nav" aria-label="주요 섹션">
+            <a href="#skill-section" class="gnb-link">SKILL</a>
+            <a href="#projects-section" class="gnb-link">PROJECTS</a>
+            <a href="#introduce-section" class="gnb-link">INTRODUCE</a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="hero section section--cream" aria-labelledby="hero-title">
+          <div class="container hero__stack">
+            <div class="hero__copy reveal">
+              <p class="hero__en" id="hero-title">
+                Evolving UI/UX Designer Crafting Impactful Experiences
+              </p>
+              <div class="hero__title">
+                <p>지속적인 성장을 바탕으로,</p>
+                <p>마음을 움직이는 UX를 설계합니다.</p>
+              </div>
+              <button class="btn-download" type="button">
+                <span>PDF Portfolio 다운로드</span>
+              </button>
+            </div>
+
+            <div class="hero__slider reveal" aria-label="포트폴리오 슬라이드">
+              <div class="marquee" data-pause-on-hover>
+                <div class="marquee__track">
+                  <ul class="marquee__group">
+                    <li class="slide-card">
+                      <img src="./img/slide/slide_01%203.png" alt="" />
+                    </li>
+                    <li class="slide-card">
+                      <img src="./img/slide/slide_02%201.png" alt="" />
+                    </li>
+                    <li class="slide-card">
+                      <img src="./img/slide/slide_03%201.png" alt="" />
+                    </li>
+                    <li class="slide-card">
+                      <img src="./img/slide/slide_03%202.png" alt="" />
+                    </li>
+                    <li class="slide-card">
+                      <img src="./img/slide/slide_06%201.png" alt="" />
+                    </li>
+                  </ul>
+                  <ul class="marquee__group" aria-hidden="true">
+                    <li class="slide-card">
+                      <img src="./img/slide/slide_01%203.png" alt="" />
+                    </li>
+                    <li class="slide-card">
+                      <img src="./img/slide/slide_02%201.png" alt="" />
+                    </li>
+                    <li class="slide-card">
+                      <img src="./img/slide/slide_03%201.png" alt="" />
+                    </li>
+                    <li class="slide-card">
+                      <img src="./img/slide/slide_03%202.png" alt="" />
+                    </li>
+                    <li class="slide-card">
+                      <img src="./img/slide/slide_06%201.png" alt="" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="why section section--white" aria-labelledby="why-title" id="skill-section">
+          <div class="container section__stack">
+            <div class="why__head reveal">
+              <p class="eyebrow">WHY ME</p>
+              <h2 class="section-heading" id="why-title">
+                <span>실무 경험을 기반으로</span>
+                <span>사용자의 흐름을 설계하며,</span>
+                <span class="text-accent">결과로 증명하는 디자인을 만듭니다.</span>
+              </h2>
+            </div>
+
+            <div class="why__metrics reveal">
+              <div class="metric">
+                <p class="metric__label">Years of experience</p>
+                <p class="metric__value"><span class="count-up" data-target="10">0</span>+</p>
+              </div>
+              <div class="metric">
+                <p class="metric__label">Finished projects</p>
+                <p class="metric__value"><span class="count-up" data-target="40">0</span>+</p>
+              </div>
+            </div>
+
+            <div class="skills reveal">
+              <p class="eyebrow">SKILL INVENTORY</p>
+              <ul class="skills-grid">
+                <li class="skill-card">
+                  <img src="./img/skill/type%3Dfigma%2C%20size%3Dlarge.png" alt="Figma" />
+                </li>
+                <li class="skill-card">
+                  <img src="./img/skill/type%3Dxd%2C%20size%3Dlarge.png" alt="Adobe XD" />
+                </li>
+                <li class="skill-card">
+                  <img src="./img/skill/type%3Dphotoshop%2C%20size%3Dlarge.png" alt="Photoshop" />
+                </li>
+                <li class="skill-card">
+                  <img src="./img/skill/type%3Dillust%2C%20size%3Dlarge.png" alt="Illustrator" />
+                </li>
+                <li class="skill-card">
+                  <img src="./img/skill/type%3Dcursor%2C%20size%3Dlarge.png" alt="Cursor" />
+                </li>
+                <li class="skill-card">
+                  <img src="./img/skill/type%3Dmidjourney%2C%20size%3Dlarge.png" alt="Midjourney" />
+                </li>
+                <li class="skill-card">
+                  <img src="./img/skill/type%3Dantigravity%2C%20size%3Dlarge.png" alt="Antigravity" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects section section--dark" aria-labelledby="projects-title" id="projects-section">
+          <div class="container section__stack">
+            <header class="projects__head reveal">
+              <p class="eyebrow eyebrow--muted">CASE STUDIES</p>
+              <h2 class="section-heading section-heading--light" id="projects-title">Recent Projects</h2>
+            </header>
+
+            <div class="projects-grid">
+              <a class="project-card reveal" href="#" tabindex="0">
+                <figure class="project-card__media">
+                  <img src="./img/list/img_01.png" alt="포스코 DX 스틸앤닷컴 랜딩페이지" />
+                </figure>
+                <div class="project-card__body">
+                  <h3 class="project-card__title">포스코 DX 스틸앤닷컴 랜딩페이지</h3>
+                  <p class="project-card__tags">Web · Landing Page · B2B</p>
+                </div>
+              </a>
+
+              <a class="project-card reveal" href="#" tabindex="0">
+                <figure class="project-card__media">
+                  <img src="./img/list/img_02.png" alt="전주시 상권활성화 스마트보드" />
+                </figure>
+                <div class="project-card__body">
+                  <h3 class="project-card__title">전주시 상권활성화 스마트보드</h3>
+                  <p class="project-card__tags">Smart Board · HMI · Kiosk</p>
+                </div>
+              </a>
+
+              <a class="project-card reveal" href="#" tabindex="0">
+                <figure class="project-card__media">
+                  <img src="./img/list/img_03.png" alt="대흥정보 홈페이지 리뉴얼" />
+                </figure>
+                <div class="project-card__body">
+                  <h3 class="project-card__title">대흥정보 홈페이지 리뉴얼</h3>
+                  <p class="project-card__tags">Web · Business · B2B</p>
+                </div>
+              </a>
+
+              <a class="project-card reveal" href="#" tabindex="0">
+                <figure class="project-card__media">
+                  <img src="./img/list/img_04.png" alt="현대 오일뱅크 통합물류시스템" />
+                </figure>
+                <div class="project-card__body">
+                  <h3 class="project-card__title">현대 오일뱅크 통합물류시스템</h3>
+                  <p class="project-card__tags">Dashboard · B2B · Web</p>
+                </div>
+              </a>
+
+              <a class="project-card reveal" href="#" tabindex="0">
+                <figure class="project-card__media">
+                  <img src="./img/list/img_05.png" alt="산림빅데이터 포털 구축" />
+                </figure>
+                <div class="project-card__body">
+                  <h3 class="project-card__title">산림빅데이터 포털 구축</h3>
+                  <p class="project-card__tags">Web · Business · B2C</p>
+                </div>
+              </a>
+
+              <a class="project-card reveal" href="#" tabindex="0">
+                <figure class="project-card__media">
+                  <img src="./img/list/img_06.png" alt="미래한강본부 주차포털" />
+                </figure>
+                <div class="project-card__body">
+                  <h3 class="project-card__title">미래한강본부 주차포털</h3>
+                  <p class="project-card__tags">Web · Mobile · B2C</p>
+                </div>
+              </a>
+
+              <a class="project-card reveal" href="#" tabindex="0">
+                <figure class="project-card__media">
+                  <img src="./img/list/img_07.png" alt="부천시 스마트시티 앱" />
+                </figure>
+                <div class="project-card__body">
+                  <h3 class="project-card__title">부천시 스마트시티 앱</h3>
+                  <p class="project-card__tags">App · B2C · Business</p>
+                </div>
+              </a>
+
+              <a class="project-card reveal" href="#" tabindex="0">
+                <figure class="project-card__media">
+                  <img src="./img/list/img_08.png" alt="안양시 주차 관제 대시보드" />
+                </figure>
+                <div class="project-card__body">
+                  <h3 class="project-card__title">안양시 주차 관제 대시보드</h3>
+                  <p class="project-card__tags">Dashboard · Smart Board · B2B</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="introduce section section--cream" aria-labelledby="introduce-title" id="introduce-section">
+          <div class="container introduce__layout">
+            <div class="introduce__text reveal">
+              <p class="eyebrow">INTRODUCE</p>
+              <h2 class="section-heading" id="introduce-title">
+                <span>UI/UX 디자이너 선아에요,</span>
+                <span>만나서 반갑습니다!</span>
+              </h2>
+              <div class="introduce__body">
+                <p>
+                  저는 프로젝트의 핵심 가치와 정의를 명확히 하는 것에서 작업을 시작합니다. 단순히 보기 좋은 디자인에 그치지
+                  않고, 비즈니스 목표와 사용자 경험을 연결하는 최선의 전략을 수립하여 문제 해결의 로드맵을 그려냅니다. 한 번
+                  맡은 과업은 반드시 완성해내는 강한 책임감을 바탕으로, 협업 과정에서 동료들에게 깊은 신뢰를 주는 파트너가
+                  되고자 노력합니다.
+                </p>
+                <p>
+                  또한, 적당한 수준에 안주하지 않고 결과물의 완성도를 극대화하는 최상화를 지향합니다. 디테일한 한 끗 차이가
+                  사용자의 경험을 바꾼다는 믿음으로, 기존의 것을 더 효율적이고 가치 있게 다듬어 내는 과정에서 보람을 느낍니다.
+                  명확한 논리와 집요한 완성도를 통해 사용자에게는 편리함을, 브랜드에는 성장을 가져다주는 UI/UX 디자이너로
+                  거듭나겠습니다.
+                </p>
+              </div>
+              <img class="introduce__sign" src="./img/sign.png" alt="박선아 사인" width="314" height="51" />
+            </div>
+
+            <figure class="introduce__visual reveal">
+              <img src="./img/picture.png" alt="UI/UX 디자이너 박선아 일러스트" />
+            </figure>
+          </div>
+          <div class="container resume__grid">
+              <div class="resume-block reveal">
+                <h2 class="resume-block__title">학력</h2>
+                <ul class="resume-list">
+                  <li class="resume-list__item">
+                    <div class="resume-list__meta">
+                      <span class="resume-list__date">2026.03~</span>
+                      <span>재학(편입)</span>
+                    </div>
+                    <h3 class="resume-list__name">한양사이버대학교 뉴미디어 디자인과</h3>
+                  </li>
+                  <li class="resume-list__item">
+                    <div class="resume-list__meta">
+                      <span class="resume-list__date">2000.03 ~ 2003.02</span>
+                      <span>졸업</span>
+                    </div>
+                    <h3 class="resume-list__name">
+                      서일대학교 실내디자인과<span class="resume-list__score">3.51 / 4.5</span>
+                    </h3>
+                  </li>
+                  <li class="resume-list__item">
+                    <div class="resume-list__meta">
+                      <span class="resume-list__date">2000.02</span>
+                      <span>졸업</span>
+                    </div>
+                    <h3 class="resume-list__name">상명여자고등학교</h3>
+                  </li>
+                </ul>
+              </div>
+              <div class="resume-block reveal">
+                <h2 class="resume-block__title">자격증</h2>
+                <ul class="resume-list">
+                  <li class="resume-list__item">
+                    <div class="resume-list__meta">
+                      <span class="resume-list__date">2020.08</span>
+                      <span>한국생산성본부</span>
+                    </div>
+                    <h3 class="resume-list__name">GTQ 1급(국가공인)</h3>
+                  </li>
+                  <li class="resume-list__item">
+                    <div class="resume-list__meta">
+                      <span class="resume-list__date">2009.03</span>
+                      <span>대한상공회의소</span>
+                    </div>
+                    <h3 class="resume-list__name">워드프로세서 2급</h3>
+                  </li>
+                  <li class="resume-list__item">
+                    <div class="resume-list__meta">
+                      <span class="resume-list__date">2009.02</span>
+                      <span>대한상공회의소</span>
+                    </div>
+                    <h3 class="resume-list__name">컴퓨터활용능력 2급</h3>
+                  </li>
+                  <li class="resume-list__item">
+                    <div class="resume-list__meta">
+                      <span class="resume-list__date">2004.06</span>
+                      <span>산업관리공단</span>
+                    </div>
+                    <h3 class="resume-list__name">정보처리산업기사</h3>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container">
+          <p>Copyright © 박선아 all rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/main.js" defer></script>
   </body>
 </html>
