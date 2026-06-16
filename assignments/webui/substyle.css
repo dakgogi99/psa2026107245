@@ -1,0 +1,42 @@
+.webui-content {
+  margin: 120px auto 0;
+  padding: 0px 0px 60px;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.webui-cover {
+  margin: 0;
+  padding: 0px 0px 60px;
+  width: 100%;
+}
+
+.webui-cover img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.subpage-actions {
+  margin-top: 0;
+  padding: 0px 20px;
+}
+
+@media (max-width: 1279px) {
+  .webui-content {
+    min-width: 800px;
+  }
+}
+
+@media (max-width: 799px) {
+  .webui-content {
+    margin-top: 60px;
+    min-width: 335px;
+  }
+
+  .webui-cover {
+    width: 100%;
+    height: auto;
+  }
+
+}
