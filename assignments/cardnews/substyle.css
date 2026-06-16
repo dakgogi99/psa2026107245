@@ -1,0 +1,42 @@
+.cardnews-content {
+  margin: 120px auto 0;
+  padding: 0px 0px 60px;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.cardnews-cover {
+  margin: 0;
+  padding: 0px 0px 60px;
+  width: 100%;
+}
+
+.cardnews-cover img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.subpage-actions {
+  margin-top: 0;
+  padding: 0px 20px;
+}
+
+@media (max-width: 1279px) {
+  .cardnews-content {
+    min-width: 800px;
+  }
+}
+
+@media (max-width: 799px) {
+  .cardnews-content {
+    margin-top: 60px;
+    min-width: 335px;
+  }
+
+  .cardnews-cover {
+    width: 100%;
+    height: auto;
+  }
+
+}
