@@ -405,13 +405,13 @@ a {
 }
 
 .subpage-btn--solid {
-  background: #000000;
+  background: #E93D27;
   color: #ffffff;
 }
 
 .subpage-btn--solid:hover,
 .subpage-btn--solid:focus-visible {
-  background: #0f0f0f;
+  background: #FF1D00;
 }
 
 @media (max-width: 1279px) and (min-width: 800px) {
